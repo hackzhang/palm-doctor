@@ -1,7 +1,5 @@
 package com.doctor.main;
 
-import com.baidu.mobstat.StatService;
-
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;

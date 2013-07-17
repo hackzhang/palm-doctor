@@ -5,7 +5,6 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import com.baidu.mobstat.StatService;
 import com.doctor.entity.Condition;
 import com.doctor.tool.DBManager;
 import com.doctor.tool.SearchAdapter;

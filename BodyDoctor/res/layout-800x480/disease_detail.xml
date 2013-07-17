@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" 
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent" 
+	android:background="@drawable/background2">
+   <RelativeLayout android:layout_width="fill_parent" android:layout_height="40dip" android:background="#326EAF" android:padding="5px" android:layout_alignParentTop="true">
+    <TextView  android:id="@+id/textview"
+               android:textAppearance="?android:attr/textAppearanceMedium" 
+               android:layout_width="fill_parent" 
+               android:textColor="#ffffff"
+               android:gravity="center_horizontal"
+               android:layout_height="wrap_content"></TextView>
+     <TextView
+        android:id="@+id/collect_button_disease"
+        android:text="收藏"
+        android:gravity="center"
+        android:layout_marginLeft="10dip"
+        android:layout_marginTop="3dip"
+        android:textSize="12dip"
+        android:textAppearance="?android:attr/textAppearanceMedium" 
+        android:textColor="#ffffff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/navi_button"
+        />
+   </RelativeLayout>
+	<ExpandableListView 
+	    android:id="@+id/list_detail"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:cacheColorHint="#00000000"
+		android:background="@drawable/background2"
+		android:listSelector="@drawable/listview_bkg"
+		android:divider="#ffc9e7f9" 
+        android:layout_alignParentLeft="true"/>
+</LinearLayout>

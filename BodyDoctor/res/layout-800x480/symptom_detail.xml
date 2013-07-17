@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="40dip" android:background="#326EAF" android:padding="5dip" android:layout_alignParentTop="true">
+    <TextView  
+        	   android:id="@+id/title"
+               android:text="XX可能的疾病" 
+               android:textAppearance="?android:attr/textAppearanceMedium" 
+               android:layout_width="fill_parent" 
+               android:textColor="#ffffff"
+               android:gravity="center_horizontal"
+               android:layout_height="wrap_content"></TextView>
+   </RelativeLayout>
+   <RelativeLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="45dp" android:background="@drawable/background2" android:padding="5dip" android:layout_alignParentTop="true">
+     <Button
+	        android:id="@+id/whole"
+	        android:text="全部  "
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="0.41"
+	        android:gravity="center_vertical"
+	        android:layout_marginLeft="1dip"
+	        android:paddingTop="2dip" >
+	    </Button>
+	     <Button
+	        android:id="@+id/common"
+	        android:text="常见 "
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="0.41"
+	        android:gravity="center_vertical"
+	        android:layout_marginLeft="70dip"
+	        android:paddingTop="2dip" >
+	    </Button>
+	    <Button
+	        android:id="@+id/child"
+	        android:text="儿童 "
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="0.41"
+	        android:gravity="center_vertical"
+	        android:layout_marginLeft="130dip"
+	        android:paddingTop="2dip" >
+	    </Button>
+	    <Button
+	        android:id="@+id/deadly"
+	        android:text="致命 "
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="0.41"
+	        android:gravity="center_vertical"
+	        android:layout_marginLeft="190dip"
+	        android:paddingTop="2dip" >
+	    </Button>
+   </RelativeLayout>
+   
+    <RelativeLayout android:layout_width="fill_parent" android:background="@color/white" android:layout_height="500dip" android:padding="5dip" android:layout_alignParentTop="true">
+		    <ListView
+            android:id="@+id/symptom_disease"
+            android:focusable="true" 
+            android:clipChildren="false" 
+            android:layout_width="fill_parent" 
+            android:layout_height="fill_parent" 
+            android:listSelector="@anim/listview_bg" 
+            android:divider="@drawable/list_divider_line" 
+            android:drawSelectorOnTop="false" 
+            android:fastScrollEnabled="true"
+            android:dividerHeight="1.0dip"/>
+		   <TextView 
+			android:id="@+id/warning"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"/> 
+   </RelativeLayout>
+
+</LinearLayout>

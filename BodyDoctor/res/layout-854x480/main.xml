@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:gravity ="center_horizontal"
+	android:background="@drawable/launcher"
+	>
+	
+    <ImageView android:layout_marginTop="-60dip"
+               android:paddingLeft="20dip"
+               android:paddingRight="20dip"
+               android:scaleType="centerInside"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:id="@+id/logo">
+    </ImageView>
+    <!--
+    android:typeface 字体风格
+    -->
+    <TextView 
+              android:id="@+id/helloNumber"
+              android:text="hello.world"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="530dip"
+              android:typeface="normal"
+              android:shadowDx="0"
+              android:shadowDy="2"
+              android:shadowRadius="1"
+              android:textColor="@color/white"
+              android:gravity="center_horizontal"
+              >
+    </TextView>
+</LinearLayout>

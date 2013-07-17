@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/background2" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+   <RelativeLayout android:layout_width="fill_parent" android:layout_height="40dip" android:background="#326EAF" android:padding="5px" android:layout_alignParentTop="true">
+    <TextView android:text="收藏的疾病" 
+               android:textAppearance="?android:attr/textAppearanceMedium" 
+               android:layout_width="fill_parent" 
+               android:textColor="#ffffff"
+               android:gravity="center_horizontal"
+               android:layout_height="wrap_content"></TextView>
+   </RelativeLayout>
+        <ListView
+            android:id="@+id/list_symptom"
+            android:focusable="true" 
+            android:clipChildren="false" 
+            android:layout_width="fill_parent" 
+            android:layout_height="fill_parent" 
+            android:listSelector="@anim/listview_bg" 
+            android:divider="@drawable/list_divider_line" 
+            android:drawSelectorOnTop="false" 
+            android:fastScrollEnabled="true"
+            android:dividerHeight="1.0dip" />
+	    <LinearLayout android:gravity="center" 
+	        android:orientation="vertical" 
+	        android:background="@android:color/transparent" 
+	        android:layout_width="fill_parent" 
+	        android:layout_height="fill_parent">
+	    </LinearLayout>
+	    <TextView android:id="@+id/tvquery"
+		 android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+		 
+		<TextView android:id="@+id/tvdata"
+		  android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+</LinearLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <string name="app_name">掌上医生</string>
+     <string name="company_name">© 新闻网健康</string>
+     <string name="search_disease_hint">搜索疾病</string>
+     <string name="search_symptom_hint">搜索症状</string>
+     <string name="pull_to_refresh_refreshing_label">正在刷新</string>
+     <string name="ask_doc_title">提问详情</string>
+     <string name="ok">确定</string>
+     <string name="searchLable"></string>
+     <string name="searchHint">请输入关键字</string>
+     <string name="version">当前版本1.1</string>
+     <string name="about_app_name">Palm Doctor-掌上医生</string>
+     <string name="collect">收藏</string>
+     <string name="cancle_collect">取消收藏</string>
+     <string name="check">输入参数有误!</string>
+     <string name="exit">确定要退出移动健康吗?</string>
+     <string name="prompt">提示</string>
+     <string name="cancle">取消</string>
+     <string name="more">更多</string>
+     <string name="about_us">关于我们</string>
+     <string name="feedback">意见反馈</string>
+     <string name="share">分享</string>
+     <string name="statement">声明</string>
+     <string name="chest">胸部</string>
+     <string name="belly">腹部</string>
+     <string name="pelvis">骨盆</string>
+     <string name="hip">臀部</string>
+     <string name="leg">下肢 | 腿部</string>
+     <string name="foot">足部</string>
+     <string name="arm">上肢 | 胳膊</string>
+     <string name="hand">手部</string>
+     <string name="shoulder">肩部</string>
+     <string name="disease">可能的疾病</string>
+     <string name="no_data">暂无数据...</string>
+     <string name="help_dialog_text"> 
+				<i>Author:青岛新闻网络传播有限公司</i>
+				\n 
+				<i> 
+				网址： <a href="http://www.qingdaonews.com">http://www.qingdaonews.com</a> 
+				</i> 
+				\n 
+				\n 
+				<i>版本号：</i> 
+				\n 
+				Version 1.0 
+				\n 
+				\n 
+				<b>联系电话：</b> 
+				\n 
+				0532-82870000
+				\n 
+	</string> 
+</resources>
